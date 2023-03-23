@@ -54,6 +54,9 @@ This project comes with some pre-configured debuggers (They can be installed usi
 
 - Install a debug adapter by running: ```Debugger: Install adapter``` from the command palette.
 
+if install failed by the ```Debugger: Install adapter```, Direct download the .vsix and unzip it to  the Sublime Text package directory,  Packages/Debugger/data/adapters folder, and rename it to match the type name, and restart the sublime text.
+
+
 - Add a configuration ```Debugger: Add Configuration``` from the command palette (or add one manually, see below).
   - Configurations are added to `debugger_configurations` to your sublime-project and use the same configuration format as Visual Studio Code
   - Consult the debugger specific documentation links above for creating a configuration for your debugger. Most debuggers come with some configuration snippets to choose from but I highly recommend looking at the documentation for the debugger.
